@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace capaDatos
 {
-    internal class datPresupuesto
+    public class datPresupuesto
     {
+
+
+
+
+
+
     }
 }

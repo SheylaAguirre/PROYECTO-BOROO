@@ -47,5 +47,15 @@
     <Compile Include="logProveedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\capaDatos\capaDatos.csproj">
+      <Project>{62019ecf-158c-480d-ab02-d325d6af5a58}</Project>
+      <Name>capaDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\capaEntidad\capaEntidad.csproj">
+      <Project>{6580c87b-9d2c-4833-8ba3-71b96dce7b48}</Project>
+      <Name>capaEntidad</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

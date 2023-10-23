@@ -42,7 +42,6 @@
             this.dateTimePickerFecha = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.comboxTipoPago = new System.Windows.Forms.ComboBox();
-            this.comboxProveedor = new System.Windows.Forms.ComboBox();
             this.txtMonto = new System.Windows.Forms.TextBox();
             this.txtFactura = new System.Windows.Forms.TextBox();
             this.txtIDCotrizacion = new System.Windows.Forms.TextBox();
@@ -53,6 +52,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -68,7 +68,7 @@
             this.label8.Image = global::capaPresentacion.Properties.Resources.partes;
             this.label8.Location = new System.Drawing.Point(53, 29);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(509, 39);
+            this.label8.Size = new System.Drawing.Size(493, 38);
             this.label8.TabIndex = 24;
             this.label8.Text = "MANTENEDOR PROVEEDOR";
             // 
@@ -164,10 +164,10 @@
             // 
             // groupBoxRegistrar
             // 
+            this.groupBoxRegistrar.Controls.Add(this.textBox1);
             this.groupBoxRegistrar.Controls.Add(this.dateTimePickerFecha);
             this.groupBoxRegistrar.Controls.Add(this.label2);
             this.groupBoxRegistrar.Controls.Add(this.comboxTipoPago);
-            this.groupBoxRegistrar.Controls.Add(this.comboxProveedor);
             this.groupBoxRegistrar.Controls.Add(this.txtMonto);
             this.groupBoxRegistrar.Controls.Add(this.txtFactura);
             this.groupBoxRegistrar.Controls.Add(this.txtIDCotrizacion);
@@ -184,7 +184,7 @@
             this.groupBoxRegistrar.Size = new System.Drawing.Size(840, 212);
             this.groupBoxRegistrar.TabIndex = 19;
             this.groupBoxRegistrar.TabStop = false;
-            this.groupBoxRegistrar.Text = "Registrar";
+            this.groupBoxRegistrar.Text = "Registrar/Actualizar";
             // 
             // dateTimePickerFecha
             // 
@@ -200,9 +200,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(433, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 20);
+            this.label2.Size = new System.Drawing.Size(177, 20);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Fecha:";
+            this.label2.Text = "FECHA REGISTRO:";
             // 
             // comboxTipoPago
             // 
@@ -213,16 +213,6 @@
             this.comboxTipoPago.Size = new System.Drawing.Size(195, 28);
             this.comboxTipoPago.TabIndex = 11;
             this.comboxTipoPago.Text = "Seleccionar";
-            // 
-            // comboxProveedor
-            // 
-            this.comboxProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboxProveedor.FormattingEnabled = true;
-            this.comboxProveedor.Location = new System.Drawing.Point(160, 99);
-            this.comboxProveedor.Name = "comboxProveedor";
-            this.comboxProveedor.Size = new System.Drawing.Size(195, 28);
-            this.comboxProveedor.TabIndex = 10;
-            this.comboxProveedor.Text = "Seleccionar";
             // 
             // txtMonto
             // 
@@ -250,11 +240,11 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(481, 99);
+            this.btnCancelar.Location = new System.Drawing.Point(470, 99);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(125, 38);
+            this.btnCancelar.Size = new System.Drawing.Size(136, 38);
             this.btnCancelar.TabIndex = 6;
-            this.btnCancelar.Text = "CANCELAR";
+            this.btnCancelar.Text = "ACTUALIZAR";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // btnAgregar
@@ -272,9 +262,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(6, 167);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(137, 20);
+            this.label7.Size = new System.Drawing.Size(113, 20);
             this.label7.TabIndex = 4;
-            this.label7.Text = "Monto a Pagar:";
+            this.label7.Text = "TELEFONO:";
             // 
             // label6
             // 
@@ -282,9 +272,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(5, 134);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(125, 20);
+            this.label6.Size = new System.Drawing.Size(138, 20);
             this.label6.TabIndex = 3;
-            this.label6.Text = "Tipo de Pago:";
+            this.label6.Text = "FORMA PAGO:";
             // 
             // label5
             // 
@@ -292,9 +282,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(6, 99);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 20);
+            this.label5.Size = new System.Drawing.Size(95, 20);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Proveedor:";
+            this.label5.Text = "NOMBRE:";
             // 
             // label4
             // 
@@ -302,9 +292,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(6, 65);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 20);
+            this.label4.Size = new System.Drawing.Size(121, 20);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Factura";
+            this.label4.Text = "CATEGORIA:";
             // 
             // label3
             // 
@@ -312,9 +302,17 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(6, 36);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 20);
+            this.label3.Size = new System.Drawing.Size(54, 20);
             this.label3.TabIndex = 0;
-            this.label3.Text = "ID Cotización:";
+            this.label3.Text = "RUC:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(160, 99);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(195, 27);
+            this.textBox1.TabIndex = 14;
             // 
             // formMantenedorProveedor
             // 
@@ -359,7 +357,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePickerFecha;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboxTipoPago;
-        private System.Windows.Forms.ComboBox comboxProveedor;
         private System.Windows.Forms.TextBox txtMonto;
         private System.Windows.Forms.TextBox txtFactura;
         private System.Windows.Forms.TextBox txtIDCotrizacion;
@@ -370,5 +367,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

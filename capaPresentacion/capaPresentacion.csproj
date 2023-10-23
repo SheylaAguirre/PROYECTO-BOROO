@@ -110,5 +110,15 @@
   <ItemGroup>
     <None Include="Resources\partes.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\capaEntidad\capaEntidad.csproj">
+      <Project>{6580c87b-9d2c-4833-8ba3-71b96dce7b48}</Project>
+      <Name>capaEntidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\capaLogica\capaLogica.csproj">
+      <Project>{333c399a-67ef-4a15-86df-061e6b511fa4}</Project>
+      <Name>capaLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

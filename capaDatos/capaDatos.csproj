@@ -48,5 +48,11 @@
     <Compile Include="datProveedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\capaEntidad\capaEntidad.csproj">
+      <Project>{6580c87b-9d2c-4833-8ba3-71b96dce7b48}</Project>
+      <Name>capaEntidad</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

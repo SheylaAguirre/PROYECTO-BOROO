@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace capaDatos
 {
-    internal class datOrdenDeCompra
+    public class datOrdenDeCompra
     {
     }
 }

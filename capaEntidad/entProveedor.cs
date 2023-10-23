@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace capaEntidad
 {
-    internal class entProveedor
+    public class entProveedor
     {
     }
 }

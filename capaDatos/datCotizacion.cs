@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace capaDatos
 {
-    internal class datCotizacion
+    public class datCotizacion
     {
     }
 }

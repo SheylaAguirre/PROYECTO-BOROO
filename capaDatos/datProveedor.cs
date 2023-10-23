@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using capaEntidad;
 
 namespace capaDatos
 {
@@ -30,7 +31,7 @@ namespace capaDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spListarProveedor", cn);
+                cmd = new SqlCommand($"LeerProveedor", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
@@ -42,11 +43,8 @@ namespace capaDatos
                     Pro.Categoria = dr["Categoria"].ToString();
                     Pro.NombreProveedor = dr["NombreProveedor"].ToString();
                     Pro.FormaPago = dr["FormaPago"].ToString();
-                    Pro.DireccionProveedor = dr["DireccionProveedor"].ToString();
                     Pro.TelefonoProveedor = dr["TelefonoProveedor"].ToString();
-                    Pro.CorreoElectronicoProveedor = dr["CorreoElectronicoProveedor"].ToString();
                     Pro.FechaRegistro = Convert.ToDateTime(dr["FechaRegistro"]);
-                    Pro.EstadoProveedor = Convert.ToBoolean(dr["EstadoProveedor"]);
                     lista.Add(Pro);
                 }
             }
@@ -69,17 +67,14 @@ namespace capaDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spInsertarProveedor", cn);
+                cmd = new SqlCommand("CrearProveedor", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@RUCProveedor", Pro.RUCProveedor);
                 cmd.Parameters.AddWithValue("@Categoria", Pro.Categoria);
                 cmd.Parameters.AddWithValue("@NombreProveedor", Pro.NombreProveedor);
                 cmd.Parameters.AddWithValue("@FormaPago", Pro.FormaPago);
-                cmd.Parameters.AddWithValue("@DireccionProveedor", Pro.DireccionProveedor);
                 cmd.Parameters.AddWithValue("@TelefonoProveedor", Pro.TelefonoProveedor);
-                cmd.Parameters.AddWithValue("@CorreoElectronicoProveedor", Pro.CorreoElectronicoProveedor);
                 cmd.Parameters.AddWithValue("@FechaRegistro", Pro.FechaRegistro);
-                cmd.Parameters.AddWithValue("@EstadoProveedor", Pro.EstadoProveedor);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
@@ -102,18 +97,15 @@ namespace capaDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spEditarProveedor", cn);
+                cmd = new SqlCommand("ActualizarProveedor", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@IDProveedor", Pro.IDProveedor);
                 cmd.Parameters.AddWithValue("@RUCProveedor", Pro.RUCProveedor);
                 cmd.Parameters.AddWithValue("@Categoria", Pro.Categoria);
                 cmd.Parameters.AddWithValue("@NombreProveedor", Pro.NombreProveedor);
                 cmd.Parameters.AddWithValue("@FormaPago", Pro.FormaPago);
-                cmd.Parameters.AddWithValue("@DireccionProveedor", Pro.DireccionProveedor);
                 cmd.Parameters.AddWithValue("@TelefonoProveedor", Pro.TelefonoProveedor);
-                cmd.Parameters.AddWithValue("@CorreoElectronicoProveedor", Pro.CorreoElectronicoProveedor);
                 cmd.Parameters.AddWithValue("@FechaRegistro", Pro.FechaRegistro);
-                cmd.Parameters.AddWithValue("@EstadoProveedor", Pro.EstadoProveedor);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
@@ -136,7 +128,7 @@ namespace capaDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spDeshabilitarProveedor", cn);
+                cmd = new SqlCommand("BorrarProveedor", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@IDProveedor", Pro.IDProveedor);
                 cn.Open();

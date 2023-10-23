@@ -78,6 +78,9 @@
     <EmbeddedResource Include="formMantenedorProveedor.resx">
       <DependentUpon>formMantenedorProveedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formOrdenCompra.resx">
+      <DependentUpon>formOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

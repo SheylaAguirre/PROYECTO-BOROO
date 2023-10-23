@@ -17,7 +17,7 @@ namespace capaDatos
         public SqlConnection Conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source= PELGNLT090/SQLEXPRESS; Initial Catalog = TiendaMass;" + "Integrated Security=true";
+            cn.ConnectionString = "Data Source= PELGNLT090\\SQLEXPRESS; Initial Catalog = TiendaMass;" + "Integrated Security=true";
 
             return cn;
         }

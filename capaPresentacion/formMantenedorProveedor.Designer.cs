@@ -28,87 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.groupBoxMostrar = new System.Windows.Forms.GroupBox();
-            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnEliminarProveedor = new System.Windows.Forms.Button();
             this.txtIdMostrar = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnMostra = new System.Windows.Forms.Button();
-            this.dgvMostrar = new System.Windows.Forms.DataGridView();
+            this.dgvMostrarProveedores = new System.Windows.Forms.DataGridView();
             this.groupBoxRegistrar = new System.Windows.Forms.GroupBox();
-            this.dateTimePickerFecha = new System.Windows.Forms.DateTimePicker();
+            this.txtProveedorNombre = new System.Windows.Forms.TextBox();
+            this.dateTimePickerFechaProveedor = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboxTipoPago = new System.Windows.Forms.ComboBox();
-            this.txtMonto = new System.Windows.Forms.TextBox();
-            this.txtFactura = new System.Windows.Forms.TextBox();
-            this.txtIDCotrizacion = new System.Windows.Forms.TextBox();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
+            this.txtBoxTelefonoProveedor = new System.Windows.Forms.TextBox();
+            this.txtCategoriaProveedor = new System.Windows.Forms.TextBox();
+            this.txtRucProveedor = new System.Windows.Forms.TextBox();
+            this.btnActualizarProveedor = new System.Windows.Forms.Button();
+            this.btnAgregarProveedor = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFormaDePagoProveedor = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.groupBoxMostrar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMostrarProveedores)).BeginInit();
+            this.groupBoxRegistrar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.groupBoxMostrar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).BeginInit();
-            this.groupBoxRegistrar.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Image = global::capaPresentacion.Properties.Resources.partes;
-            this.label8.Location = new System.Drawing.Point(53, 29);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(493, 38);
-            this.label8.TabIndex = 24;
-            this.label8.Text = "MANTENEDOR PROVEEDOR";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::capaPresentacion.Properties.Resources.Mass_logo_con_fondo;
-            this.pictureBox2.Location = new System.Drawing.Point(591, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(282, 99);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 23;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::capaPresentacion.Properties.Resources.partes;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1060, 99);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 22;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::capaPresentacion.Properties.Resources.partes;
-            this.pictureBox3.Location = new System.Drawing.Point(-1, 601);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1060, 69);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 21;
-            this.pictureBox3.TabStop = false;
             // 
             // groupBoxMostrar
             // 
-            this.groupBoxMostrar.Controls.Add(this.btnEliminar);
+            this.groupBoxMostrar.Controls.Add(this.btnEliminarProveedor);
             this.groupBoxMostrar.Controls.Add(this.txtIdMostrar);
             this.groupBoxMostrar.Controls.Add(this.label1);
-            this.groupBoxMostrar.Controls.Add(this.btnMostra);
-            this.groupBoxMostrar.Controls.Add(this.dgvMostrar);
+            this.groupBoxMostrar.Controls.Add(this.dgvMostrarProveedores);
             this.groupBoxMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxMostrar.Location = new System.Drawing.Point(11, 323);
             this.groupBoxMostrar.Name = "groupBoxMostrar";
@@ -117,19 +74,19 @@
             this.groupBoxMostrar.TabStop = false;
             this.groupBoxMostrar.Text = "Mostrar/Eliminar";
             // 
-            // btnEliminar
+            // btnEliminarProveedor
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(481, 214);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(123, 32);
-            this.btnEliminar.TabIndex = 4;
-            this.btnEliminar.Text = "ELIMINAR";
-            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminarProveedor.Location = new System.Drawing.Point(367, 214);
+            this.btnEliminarProveedor.Name = "btnEliminarProveedor";
+            this.btnEliminarProveedor.Size = new System.Drawing.Size(237, 32);
+            this.btnEliminarProveedor.TabIndex = 4;
+            this.btnEliminarProveedor.Text = "ELIMINAR";
+            this.btnEliminarProveedor.UseVisualStyleBackColor = true;
             // 
             // txtIdMostrar
             // 
             this.txtIdMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.txtIdMostrar.Location = new System.Drawing.Point(201, 220);
+            this.txtIdMostrar.Location = new System.Drawing.Point(201, 217);
             this.txtIdMostrar.Name = "txtIdMostrar";
             this.txtIdMostrar.Size = new System.Drawing.Size(135, 27);
             this.txtIdMostrar.TabIndex = 3;
@@ -137,42 +94,34 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(156, 223);
+            this.label1.Location = new System.Drawing.Point(156, 220);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(34, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "ID:";
             // 
-            // btnMostra
+            // dgvMostrarProveedores
             // 
-            this.btnMostra.Location = new System.Drawing.Point(366, 215);
-            this.btnMostra.Name = "btnMostra";
-            this.btnMostra.Size = new System.Drawing.Size(109, 32);
-            this.btnMostra.TabIndex = 1;
-            this.btnMostra.Text = "MOSTRAR";
-            this.btnMostra.UseVisualStyleBackColor = true;
-            // 
-            // dgvMostrar
-            // 
-            this.dgvMostrar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMostrar.Location = new System.Drawing.Point(10, 27);
-            this.dgvMostrar.Name = "dgvMostrar";
-            this.dgvMostrar.RowHeadersWidth = 51;
-            this.dgvMostrar.RowTemplate.Height = 24;
-            this.dgvMostrar.Size = new System.Drawing.Size(815, 176);
-            this.dgvMostrar.TabIndex = 0;
+            this.dgvMostrarProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMostrarProveedores.Location = new System.Drawing.Point(10, 27);
+            this.dgvMostrarProveedores.Name = "dgvMostrarProveedores";
+            this.dgvMostrarProveedores.RowHeadersWidth = 51;
+            this.dgvMostrarProveedores.RowTemplate.Height = 24;
+            this.dgvMostrarProveedores.Size = new System.Drawing.Size(815, 176);
+            this.dgvMostrarProveedores.TabIndex = 0;
+            this.dgvMostrarProveedores.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMostrarProveedores_CellDoubleClick);
             // 
             // groupBoxRegistrar
             // 
-            this.groupBoxRegistrar.Controls.Add(this.textBox1);
-            this.groupBoxRegistrar.Controls.Add(this.dateTimePickerFecha);
+            this.groupBoxRegistrar.Controls.Add(this.txtFormaDePagoProveedor);
+            this.groupBoxRegistrar.Controls.Add(this.txtProveedorNombre);
+            this.groupBoxRegistrar.Controls.Add(this.dateTimePickerFechaProveedor);
             this.groupBoxRegistrar.Controls.Add(this.label2);
-            this.groupBoxRegistrar.Controls.Add(this.comboxTipoPago);
-            this.groupBoxRegistrar.Controls.Add(this.txtMonto);
-            this.groupBoxRegistrar.Controls.Add(this.txtFactura);
-            this.groupBoxRegistrar.Controls.Add(this.txtIDCotrizacion);
-            this.groupBoxRegistrar.Controls.Add(this.btnCancelar);
-            this.groupBoxRegistrar.Controls.Add(this.btnAgregar);
+            this.groupBoxRegistrar.Controls.Add(this.txtBoxTelefonoProveedor);
+            this.groupBoxRegistrar.Controls.Add(this.txtCategoriaProveedor);
+            this.groupBoxRegistrar.Controls.Add(this.txtRucProveedor);
+            this.groupBoxRegistrar.Controls.Add(this.btnActualizarProveedor);
+            this.groupBoxRegistrar.Controls.Add(this.btnAgregarProveedor);
             this.groupBoxRegistrar.Controls.Add(this.label7);
             this.groupBoxRegistrar.Controls.Add(this.label6);
             this.groupBoxRegistrar.Controls.Add(this.label5);
@@ -186,13 +135,21 @@
             this.groupBoxRegistrar.TabStop = false;
             this.groupBoxRegistrar.Text = "Registrar/Actualizar";
             // 
-            // dateTimePickerFecha
+            // txtProveedorNombre
             // 
-            this.dateTimePickerFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerFecha.Location = new System.Drawing.Point(446, 60);
-            this.dateTimePickerFecha.Name = "dateTimePickerFecha";
-            this.dateTimePickerFecha.Size = new System.Drawing.Size(334, 27);
-            this.dateTimePickerFecha.TabIndex = 13;
+            this.txtProveedorNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProveedorNombre.Location = new System.Drawing.Point(160, 99);
+            this.txtProveedorNombre.Name = "txtProveedorNombre";
+            this.txtProveedorNombre.Size = new System.Drawing.Size(195, 27);
+            this.txtProveedorNombre.TabIndex = 14;
+            // 
+            // dateTimePickerFechaProveedor
+            // 
+            this.dateTimePickerFechaProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerFechaProveedor.Location = new System.Drawing.Point(446, 60);
+            this.dateTimePickerFechaProveedor.Name = "dateTimePickerFechaProveedor";
+            this.dateTimePickerFechaProveedor.Size = new System.Drawing.Size(334, 27);
+            this.dateTimePickerFechaProveedor.TabIndex = 13;
             // 
             // label2
             // 
@@ -204,57 +161,48 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "FECHA REGISTRO:";
             // 
-            // comboxTipoPago
+            // txtBoxTelefonoProveedor
             // 
-            this.comboxTipoPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboxTipoPago.FormattingEnabled = true;
-            this.comboxTipoPago.Location = new System.Drawing.Point(160, 134);
-            this.comboxTipoPago.Name = "comboxTipoPago";
-            this.comboxTipoPago.Size = new System.Drawing.Size(195, 28);
-            this.comboxTipoPago.TabIndex = 11;
-            this.comboxTipoPago.Text = "Seleccionar";
+            this.txtBoxTelefonoProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxTelefonoProveedor.Location = new System.Drawing.Point(160, 168);
+            this.txtBoxTelefonoProveedor.Name = "txtBoxTelefonoProveedor";
+            this.txtBoxTelefonoProveedor.Size = new System.Drawing.Size(195, 27);
+            this.txtBoxTelefonoProveedor.TabIndex = 9;
             // 
-            // txtMonto
+            // txtCategoriaProveedor
             // 
-            this.txtMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMonto.Location = new System.Drawing.Point(160, 168);
-            this.txtMonto.Name = "txtMonto";
-            this.txtMonto.Size = new System.Drawing.Size(195, 27);
-            this.txtMonto.TabIndex = 9;
+            this.txtCategoriaProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCategoriaProveedor.Location = new System.Drawing.Point(160, 65);
+            this.txtCategoriaProveedor.Name = "txtCategoriaProveedor";
+            this.txtCategoriaProveedor.Size = new System.Drawing.Size(195, 27);
+            this.txtCategoriaProveedor.TabIndex = 8;
             // 
-            // txtFactura
+            // txtRucProveedor
             // 
-            this.txtFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFactura.Location = new System.Drawing.Point(160, 65);
-            this.txtFactura.Name = "txtFactura";
-            this.txtFactura.Size = new System.Drawing.Size(195, 27);
-            this.txtFactura.TabIndex = 8;
+            this.txtRucProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRucProveedor.Location = new System.Drawing.Point(160, 27);
+            this.txtRucProveedor.Name = "txtRucProveedor";
+            this.txtRucProveedor.Size = new System.Drawing.Size(195, 27);
+            this.txtRucProveedor.TabIndex = 7;
             // 
-            // txtIDCotrizacion
+            // btnActualizarProveedor
             // 
-            this.txtIDCotrizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDCotrizacion.Location = new System.Drawing.Point(160, 27);
-            this.txtIDCotrizacion.Name = "txtIDCotrizacion";
-            this.txtIDCotrizacion.Size = new System.Drawing.Size(195, 27);
-            this.txtIDCotrizacion.TabIndex = 7;
+            this.btnActualizarProveedor.Location = new System.Drawing.Point(470, 99);
+            this.btnActualizarProveedor.Name = "btnActualizarProveedor";
+            this.btnActualizarProveedor.Size = new System.Drawing.Size(136, 38);
+            this.btnActualizarProveedor.TabIndex = 6;
+            this.btnActualizarProveedor.Text = "ACTUALIZAR";
+            this.btnActualizarProveedor.UseVisualStyleBackColor = true;
             // 
-            // btnCancelar
+            // btnAgregarProveedor
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(470, 99);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(136, 38);
-            this.btnCancelar.TabIndex = 6;
-            this.btnCancelar.Text = "ACTUALIZAR";
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(612, 99);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(125, 39);
-            this.btnAgregar.TabIndex = 5;
-            this.btnAgregar.Text = "AGREGAR";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregarProveedor.Location = new System.Drawing.Point(612, 99);
+            this.btnAgregarProveedor.Name = "btnAgregarProveedor";
+            this.btnAgregarProveedor.Size = new System.Drawing.Size(125, 39);
+            this.btnAgregarProveedor.TabIndex = 5;
+            this.btnAgregarProveedor.Text = "AGREGAR";
+            this.btnAgregarProveedor.UseVisualStyleBackColor = true;
+            this.btnAgregarProveedor.Click += new System.EventHandler(this.btnAgregarProveedor_Click);
             // 
             // label7
             // 
@@ -306,13 +254,54 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "RUC:";
             // 
-            // textBox1
+            // txtFormaDePagoProveedor
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(160, 99);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 27);
-            this.textBox1.TabIndex = 14;
+            this.txtFormaDePagoProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFormaDePagoProveedor.Location = new System.Drawing.Point(160, 132);
+            this.txtFormaDePagoProveedor.Name = "txtFormaDePagoProveedor";
+            this.txtFormaDePagoProveedor.Size = new System.Drawing.Size(195, 27);
+            this.txtFormaDePagoProveedor.TabIndex = 15;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Image = global::capaPresentacion.Properties.Resources.partes;
+            this.label8.Location = new System.Drawing.Point(53, 29);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(493, 38);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "MANTENEDOR PROVEEDOR";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::capaPresentacion.Properties.Resources.Mass_logo_con_fondo;
+            this.pictureBox2.Location = new System.Drawing.Point(591, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(282, 99);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 23;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::capaPresentacion.Properties.Resources.partes;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1060, 99);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::capaPresentacion.Properties.Resources.partes;
+            this.pictureBox3.Location = new System.Drawing.Point(-1, 601);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(1060, 69);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 21;
+            this.pictureBox3.TabStop = false;
             // 
             // formMantenedorProveedor
             // 
@@ -328,14 +317,14 @@
             this.Controls.Add(this.groupBoxRegistrar);
             this.Name = "formMantenedorProveedor";
             this.Text = "formMantenedorProveedor";
+            this.groupBoxMostrar.ResumeLayout(false);
+            this.groupBoxMostrar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMostrarProveedores)).EndInit();
+            this.groupBoxRegistrar.ResumeLayout(false);
+            this.groupBoxRegistrar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.groupBoxMostrar.ResumeLayout(false);
-            this.groupBoxMostrar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).EndInit();
-            this.groupBoxRegistrar.ResumeLayout(false);
-            this.groupBoxRegistrar.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -348,25 +337,24 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.GroupBox groupBoxMostrar;
-        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnEliminarProveedor;
         private System.Windows.Forms.TextBox txtIdMostrar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnMostra;
-        private System.Windows.Forms.DataGridView dgvMostrar;
+        private System.Windows.Forms.DataGridView dgvMostrarProveedores;
         private System.Windows.Forms.GroupBox groupBoxRegistrar;
-        private System.Windows.Forms.DateTimePicker dateTimePickerFecha;
+        private System.Windows.Forms.DateTimePicker dateTimePickerFechaProveedor;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboxTipoPago;
-        private System.Windows.Forms.TextBox txtMonto;
-        private System.Windows.Forms.TextBox txtFactura;
-        private System.Windows.Forms.TextBox txtIDCotrizacion;
-        private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.TextBox txtBoxTelefonoProveedor;
+        private System.Windows.Forms.TextBox txtCategoriaProveedor;
+        private System.Windows.Forms.TextBox txtRucProveedor;
+        private System.Windows.Forms.Button btnActualizarProveedor;
+        private System.Windows.Forms.Button btnAgregarProveedor;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtProveedorNombre;
+        private System.Windows.Forms.TextBox txtFormaDePagoProveedor;
     }
 }

@@ -16,5 +16,11 @@ namespace capaPresentacion
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            formMantenedorProveedor formProveedor = new formMantenedorProveedor();
+            formProveedor.Show();
+        }
     }
 }

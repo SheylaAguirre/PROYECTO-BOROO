@@ -63,9 +63,49 @@ namespace capaPresentacionC.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cotización {
+            get {
+                object obj = ResourceManager.GetObject("cotización", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap map_mass {
+            get {
+                object obj = ResourceManager.GetObject("map_mass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mass_logo_con_fondo {
             get {
                 object obj = ResourceManager.GetObject("Mass_logo_con_fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Parte_inferior {
+            get {
+                object obj = ResourceManager.GetObject("Parte_inferior", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Parte_superior {
+            get {
+                object obj = ResourceManager.GetObject("Parte_superior", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

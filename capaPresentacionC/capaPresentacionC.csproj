@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -85,6 +89,21 @@
       <Project>{a27fc228-eb7a-4844-97af-aa83360d7d85}</Project>
       <Name>capaLogicaC</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mass_logo_con_fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parte superior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map mass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parte inferior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cotización.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

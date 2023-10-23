@@ -30,10 +30,11 @@
         {
             this.groupBoxMostrar = new System.Windows.Forms.GroupBox();
             this.btnEliminarProveedor = new System.Windows.Forms.Button();
-            this.txtIdMostrar = new System.Windows.Forms.TextBox();
+            this.txtIDProveedor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvMostrarProveedores = new System.Windows.Forms.DataGridView();
             this.groupBoxRegistrar = new System.Windows.Forms.GroupBox();
+            this.txtFormaDePagoProveedor = new System.Windows.Forms.TextBox();
             this.txtProveedorNombre = new System.Windows.Forms.TextBox();
             this.dateTimePickerFechaProveedor = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,7 +48,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtFormaDePagoProveedor = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -62,39 +62,37 @@
             // 
             // groupBoxMostrar
             // 
-            this.groupBoxMostrar.Controls.Add(this.btnEliminarProveedor);
-            this.groupBoxMostrar.Controls.Add(this.txtIdMostrar);
-            this.groupBoxMostrar.Controls.Add(this.label1);
             this.groupBoxMostrar.Controls.Add(this.dgvMostrarProveedores);
             this.groupBoxMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxMostrar.Location = new System.Drawing.Point(11, 323);
             this.groupBoxMostrar.Name = "groupBoxMostrar";
-            this.groupBoxMostrar.Size = new System.Drawing.Size(840, 262);
+            this.groupBoxMostrar.Size = new System.Drawing.Size(840, 278);
             this.groupBoxMostrar.TabIndex = 20;
             this.groupBoxMostrar.TabStop = false;
             this.groupBoxMostrar.Text = "Mostrar/Eliminar";
             // 
             // btnEliminarProveedor
             // 
-            this.btnEliminarProveedor.Location = new System.Drawing.Point(367, 214);
+            this.btnEliminarProveedor.Location = new System.Drawing.Point(689, 153);
             this.btnEliminarProveedor.Name = "btnEliminarProveedor";
-            this.btnEliminarProveedor.Size = new System.Drawing.Size(237, 32);
+            this.btnEliminarProveedor.Size = new System.Drawing.Size(143, 42);
             this.btnEliminarProveedor.TabIndex = 4;
             this.btnEliminarProveedor.Text = "ELIMINAR";
             this.btnEliminarProveedor.UseVisualStyleBackColor = true;
+            this.btnEliminarProveedor.Click += new System.EventHandler(this.btnEliminarProveedor_Click);
             // 
-            // txtIdMostrar
+            // txtIDProveedor
             // 
-            this.txtIdMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.txtIdMostrar.Location = new System.Drawing.Point(201, 217);
-            this.txtIdMostrar.Name = "txtIdMostrar";
-            this.txtIdMostrar.Size = new System.Drawing.Size(135, 27);
-            this.txtIdMostrar.TabIndex = 3;
+            this.txtIDProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.txtIDProveedor.Location = new System.Drawing.Point(542, 108);
+            this.txtIDProveedor.Name = "txtIDProveedor";
+            this.txtIDProveedor.Size = new System.Drawing.Size(135, 27);
+            this.txtIDProveedor.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(156, 220);
+            this.label1.Location = new System.Drawing.Point(497, 111);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(34, 20);
             this.label1.TabIndex = 2;
@@ -107,20 +105,23 @@
             this.dgvMostrarProveedores.Name = "dgvMostrarProveedores";
             this.dgvMostrarProveedores.RowHeadersWidth = 51;
             this.dgvMostrarProveedores.RowTemplate.Height = 24;
-            this.dgvMostrarProveedores.Size = new System.Drawing.Size(815, 176);
+            this.dgvMostrarProveedores.Size = new System.Drawing.Size(815, 232);
             this.dgvMostrarProveedores.TabIndex = 0;
             this.dgvMostrarProveedores.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMostrarProveedores_CellDoubleClick);
             // 
             // groupBoxRegistrar
             // 
+            this.groupBoxRegistrar.Controls.Add(this.txtIDProveedor);
+            this.groupBoxRegistrar.Controls.Add(this.label1);
+            this.groupBoxRegistrar.Controls.Add(this.btnEliminarProveedor);
             this.groupBoxRegistrar.Controls.Add(this.txtFormaDePagoProveedor);
             this.groupBoxRegistrar.Controls.Add(this.txtProveedorNombre);
             this.groupBoxRegistrar.Controls.Add(this.dateTimePickerFechaProveedor);
             this.groupBoxRegistrar.Controls.Add(this.label2);
+            this.groupBoxRegistrar.Controls.Add(this.btnActualizarProveedor);
             this.groupBoxRegistrar.Controls.Add(this.txtBoxTelefonoProveedor);
             this.groupBoxRegistrar.Controls.Add(this.txtCategoriaProveedor);
             this.groupBoxRegistrar.Controls.Add(this.txtRucProveedor);
-            this.groupBoxRegistrar.Controls.Add(this.btnActualizarProveedor);
             this.groupBoxRegistrar.Controls.Add(this.btnAgregarProveedor);
             this.groupBoxRegistrar.Controls.Add(this.label7);
             this.groupBoxRegistrar.Controls.Add(this.label6);
@@ -134,6 +135,14 @@
             this.groupBoxRegistrar.TabIndex = 19;
             this.groupBoxRegistrar.TabStop = false;
             this.groupBoxRegistrar.Text = "Registrar/Actualizar";
+            // 
+            // txtFormaDePagoProveedor
+            // 
+            this.txtFormaDePagoProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFormaDePagoProveedor.Location = new System.Drawing.Point(160, 132);
+            this.txtFormaDePagoProveedor.Name = "txtFormaDePagoProveedor";
+            this.txtFormaDePagoProveedor.Size = new System.Drawing.Size(195, 27);
+            this.txtFormaDePagoProveedor.TabIndex = 15;
             // 
             // txtProveedorNombre
             // 
@@ -187,18 +196,19 @@
             // 
             // btnActualizarProveedor
             // 
-            this.btnActualizarProveedor.Location = new System.Drawing.Point(470, 99);
+            this.btnActualizarProveedor.Location = new System.Drawing.Point(541, 153);
             this.btnActualizarProveedor.Name = "btnActualizarProveedor";
-            this.btnActualizarProveedor.Size = new System.Drawing.Size(136, 38);
+            this.btnActualizarProveedor.Size = new System.Drawing.Size(143, 42);
             this.btnActualizarProveedor.TabIndex = 6;
             this.btnActualizarProveedor.Text = "ACTUALIZAR";
             this.btnActualizarProveedor.UseVisualStyleBackColor = true;
+            this.btnActualizarProveedor.Click += new System.EventHandler(this.btnActualizarProveedor_Click);
             // 
             // btnAgregarProveedor
             // 
-            this.btnAgregarProveedor.Location = new System.Drawing.Point(612, 99);
+            this.btnAgregarProveedor.Location = new System.Drawing.Point(392, 153);
             this.btnAgregarProveedor.Name = "btnAgregarProveedor";
-            this.btnAgregarProveedor.Size = new System.Drawing.Size(125, 39);
+            this.btnAgregarProveedor.Size = new System.Drawing.Size(143, 42);
             this.btnAgregarProveedor.TabIndex = 5;
             this.btnAgregarProveedor.Text = "AGREGAR";
             this.btnAgregarProveedor.UseVisualStyleBackColor = true;
@@ -254,14 +264,6 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "RUC:";
             // 
-            // txtFormaDePagoProveedor
-            // 
-            this.txtFormaDePagoProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFormaDePagoProveedor.Location = new System.Drawing.Point(160, 132);
-            this.txtFormaDePagoProveedor.Name = "txtFormaDePagoProveedor";
-            this.txtFormaDePagoProveedor.Size = new System.Drawing.Size(195, 27);
-            this.txtFormaDePagoProveedor.TabIndex = 15;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -296,9 +298,9 @@
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = global::capaPresentacion.Properties.Resources.partes;
-            this.pictureBox3.Location = new System.Drawing.Point(-1, 601);
+            this.pictureBox3.Location = new System.Drawing.Point(-1, 622);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1060, 69);
+            this.pictureBox3.Size = new System.Drawing.Size(1060, 48);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 21;
             this.pictureBox3.TabStop = false;
@@ -318,7 +320,6 @@
             this.Name = "formMantenedorProveedor";
             this.Text = "formMantenedorProveedor";
             this.groupBoxMostrar.ResumeLayout(false);
-            this.groupBoxMostrar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrarProveedores)).EndInit();
             this.groupBoxRegistrar.ResumeLayout(false);
             this.groupBoxRegistrar.PerformLayout();
@@ -338,7 +339,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.GroupBox groupBoxMostrar;
         private System.Windows.Forms.Button btnEliminarProveedor;
-        private System.Windows.Forms.TextBox txtIdMostrar;
+        private System.Windows.Forms.TextBox txtIDProveedor;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvMostrarProveedores;
         private System.Windows.Forms.GroupBox groupBoxRegistrar;

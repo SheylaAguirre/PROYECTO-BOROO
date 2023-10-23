@@ -55,8 +55,6 @@ namespace capaPresentacion
 
             limpiarTextBoxes();
             listarProveedor();
-
-
         }
 
         private void dgvMostrarProveedores_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -67,6 +65,46 @@ namespace capaPresentacion
             txtProveedorNombre.Text = filaActual.Cells[3].Value.ToString();
             txtFormaDePagoProveedor.Text = filaActual.Cells[4].Value.ToString();
             txtBoxTelefonoProveedor.Text = filaActual.Cells[6].Value.ToString();
+        }
+
+        private void btnActualizarProveedor_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                entProveedor p = new entProveedor();
+                p.IDProveedor = int.Parse(txtIDProveedor.Text.Trim());
+                p.RUCProveedor = txtRucProveedor.Text.Trim();
+                p.Categoria = txtCategoriaProveedor.Text.Trim();
+                p.NombreProveedor = txtProveedorNombre.Text.Trim();
+                p.FormaPago = txtFormaDePagoProveedor.Text.Trim();
+                p.TelefonoProveedor = txtBoxTelefonoProveedor.Text.Trim();
+                p.FechaRegistro = dateTimePickerFechaProveedor.Value;
+                logProveedor.Instancia.EditarProveedor(p);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error.." + ex);
+            }
+
+            limpiarTextBoxes();
+            listarProveedor();
+        }
+
+        private void btnEliminarProveedor_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                entProveedor p = new entProveedor();
+                p.IDProveedor = int.Parse(txtIDProveedor.Text.Trim());
+                logProveedor.Instancia.DeshabilitarProveedor(p);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error.." + ex);
+            }
+            limpiarTextBoxes();
+            listarProveedor();
         }
     }
 }

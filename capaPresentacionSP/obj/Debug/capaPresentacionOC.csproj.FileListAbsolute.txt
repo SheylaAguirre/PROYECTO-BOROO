@@ -1,0 +1,15 @@
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\bin\Debug\capaPresentacionSP.exe.config
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\bin\Debug\capaPresentacionSP.exe
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\bin\Debug\capaPresentacionSP.pdb
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\bin\Debug\capaEntidadOC.dll
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\bin\Debug\capaLogicaOC.dll
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\bin\Debug\capaEntidadOC.pdb
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\bin\Debug\capaLogicaOC.pdb
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\obj\Debug\capaPresentacionOC.csproj.AssemblyReference.cache
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\obj\Debug\capaPresentacionSP.FormPrincipal.resources
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\obj\Debug\capaPresentacionSP.Properties.Resources.resources
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\obj\Debug\capaPresentacionOC.csproj.GenerateResource.cache
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\obj\Debug\capaPresentacionOC.csproj.CoreCompileInputs.cache
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\obj\Debug\capaPresentacionOC.csproj.CopyComplete
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\obj\Debug\capaPresentacionSP.exe
+C:\Users\SHEYLA\Documents\6° CICLO\MOANSO\Proyecto MASS\PROYECTO-BOROO-main\capaPresentacionSP\obj\Debug\capaPresentacionSP.pdb

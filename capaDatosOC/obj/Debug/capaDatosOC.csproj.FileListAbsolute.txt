@@ -1,9 +1,0 @@
-C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaDatosOC\bin\Debug\capaDatosOC.dll
-C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaDatosOC\bin\Debug\capaDatosOC.pdb
-C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaDatosOC\bin\Debug\capaEntidadOC.dll
-C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaDatosOC\bin\Debug\capaEntidadOC.pdb
-C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaDatosOC\obj\Debug\capaDatosOC.csproj.AssemblyReference.cache
-C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaDatosOC\obj\Debug\capaDatosOC.csproj.CoreCompileInputs.cache
-C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaDatosOC\obj\Debug\capaDatosOC.csproj.CopyComplete
-C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaDatosOC\obj\Debug\capaDatosOC.dll
-C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaDatosOC\obj\Debug\capaDatosOC.pdb

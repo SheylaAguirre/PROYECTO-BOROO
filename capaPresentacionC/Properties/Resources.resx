@@ -121,16 +121,13 @@
   <data name="cotización" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cotización.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map_mass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\map mass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Mass_logo_con_fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mass_logo_con_fondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="partes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\partes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Parte_inferior" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Parte inferior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Parte_superior" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Parte superior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

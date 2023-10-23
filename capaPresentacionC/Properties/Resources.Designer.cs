@@ -73,16 +73,6 @@ namespace capaPresentacionC.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap map_mass {
-            get {
-                object obj = ResourceManager.GetObject("map_mass", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Mass_logo_con_fondo {
             get {
                 object obj = ResourceManager.GetObject("Mass_logo_con_fondo", resourceCulture);
@@ -103,9 +93,9 @@ namespace capaPresentacionC.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Parte_superior {
+        internal static System.Drawing.Bitmap partes {
             get {
-                object obj = ResourceManager.GetObject("Parte_superior", resourceCulture);
+                object obj = ResourceManager.GetObject("partes", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

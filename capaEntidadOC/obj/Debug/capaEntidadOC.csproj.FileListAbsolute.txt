@@ -1,0 +1,6 @@
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaEntidadOC\bin\Debug\capaEntidadOC.dll
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaEntidadOC\bin\Debug\capaEntidadOC.pdb
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaEntidadOC\obj\Debug\capaEntidadOC.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaEntidadOC\obj\Debug\capaEntidadOC.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaEntidadOC\obj\Debug\capaEntidadOC.dll
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaEntidadOC\obj\Debug\capaEntidadOC.pdb

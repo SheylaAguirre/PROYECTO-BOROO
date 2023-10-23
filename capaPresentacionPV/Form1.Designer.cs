@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.groupBoxMostrarEliminarPRO = new System.Windows.Forms.GroupBox();
-            this.groupBoxRegistrarPRO = new System.Windows.Forms.GroupBox();
-            this.dgvMostarEliminar = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnMostrar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnRegistrar = new System.Windows.Forms.Button();
-            this.txtIdMostrarEliminar = new System.Windows.Forms.TextBox();
             this.btnEditar = new System.Windows.Forms.Button();
+            this.txtIdMostrarEliminar = new System.Windows.Forms.TextBox();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnMostrar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dgvMostarEliminar = new System.Windows.Forms.DataGridView();
+            this.groupBoxRegistrarPRO = new System.Windows.Forms.GroupBox();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBoxMostrarEliminarPRO.SuspendLayout();
-            this.groupBoxRegistrarPRO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostarEliminar)).BeginInit();
+            this.groupBoxRegistrarPRO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -63,15 +63,48 @@
             this.groupBoxMostrarEliminarPRO.TabStop = false;
             this.groupBoxMostrarEliminarPRO.Text = "Mostrar/Eliminar";
             // 
-            // groupBoxRegistrarPRO
+            // btnEditar
             // 
-            this.groupBoxRegistrarPRO.Controls.Add(this.btnRegistrar);
-            this.groupBoxRegistrarPRO.Location = new System.Drawing.Point(20, 125);
-            this.groupBoxRegistrarPRO.Name = "groupBoxRegistrarPRO";
-            this.groupBoxRegistrarPRO.Size = new System.Drawing.Size(773, 259);
-            this.groupBoxRegistrarPRO.TabIndex = 1;
-            this.groupBoxRegistrarPRO.TabStop = false;
-            this.groupBoxRegistrarPRO.Text = "Registrar/Actualizar";
+            this.btnEditar.Location = new System.Drawing.Point(628, 108);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(99, 24);
+            this.btnEditar.TabIndex = 5;
+            this.btnEditar.Text = "ACTUALIZAR";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            // 
+            // txtIdMostrarEliminar
+            // 
+            this.txtIdMostrarEliminar.Location = new System.Drawing.Point(643, 37);
+            this.txtIdMostrarEliminar.Name = "txtIdMostrarEliminar";
+            this.txtIdMostrarEliminar.Size = new System.Drawing.Size(113, 22);
+            this.txtIdMostrarEliminar.TabIndex = 4;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(628, 138);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(99, 25);
+            this.btnEliminar.TabIndex = 3;
+            this.btnEliminar.Text = "ELIMINAR";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnMostrar
+            // 
+            this.btnMostrar.Location = new System.Drawing.Point(628, 79);
+            this.btnMostrar.Name = "btnMostrar";
+            this.btnMostrar.Size = new System.Drawing.Size(99, 23);
+            this.btnMostrar.TabIndex = 2;
+            this.btnMostrar.Text = "MOSTRAR";
+            this.btnMostrar.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(614, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(23, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "ID:";
             // 
             // dgvMostarEliminar
             // 
@@ -83,57 +116,24 @@
             this.dgvMostarEliminar.Size = new System.Drawing.Size(593, 148);
             this.dgvMostarEliminar.TabIndex = 0;
             // 
-            // label1
+            // groupBoxRegistrarPRO
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(614, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "ID:";
-            // 
-            // btnMostrar
-            // 
-            this.btnMostrar.Location = new System.Drawing.Point(628, 79);
-            this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(99, 23);
-            this.btnMostrar.TabIndex = 2;
-            this.btnMostrar.Text = "MOSTRAR";
-            this.btnMostrar.UseVisualStyleBackColor = true;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(628, 138);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(99, 25);
-            this.btnEliminar.TabIndex = 3;
-            this.btnEliminar.Text = "ELIMINAR";
-            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.groupBoxRegistrarPRO.Controls.Add(this.btnRegistrar);
+            this.groupBoxRegistrarPRO.Location = new System.Drawing.Point(20, 125);
+            this.groupBoxRegistrarPRO.Name = "groupBoxRegistrarPRO";
+            this.groupBoxRegistrarPRO.Size = new System.Drawing.Size(773, 259);
+            this.groupBoxRegistrarPRO.TabIndex = 1;
+            this.groupBoxRegistrarPRO.TabStop = false;
+            this.groupBoxRegistrarPRO.Text = "Registrar/Actualizar";
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(643, 200);
+            this.btnRegistrar.Location = new System.Drawing.Point(607, 73);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(103, 29);
             this.btnRegistrar.TabIndex = 0;
             this.btnRegistrar.Text = "REGISTRAR";
             this.btnRegistrar.UseVisualStyleBackColor = true;
-            // 
-            // txtIdMostrarEliminar
-            // 
-            this.txtIdMostrarEliminar.Location = new System.Drawing.Point(643, 37);
-            this.txtIdMostrarEliminar.Name = "txtIdMostrarEliminar";
-            this.txtIdMostrarEliminar.Size = new System.Drawing.Size(113, 22);
-            this.txtIdMostrarEliminar.TabIndex = 4;
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.Location = new System.Drawing.Point(628, 108);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(99, 24);
-            this.btnEditar.TabIndex = 5;
-            this.btnEditar.Text = "ACTUALIZAR";
-            this.btnEditar.UseVisualStyleBackColor = true;
             // 
             // pictureBox4
             // 
@@ -176,8 +176,8 @@
             this.Text = "PROVEEDOR";
             this.groupBoxMostrarEliminarPRO.ResumeLayout(false);
             this.groupBoxMostrarEliminarPRO.PerformLayout();
-            this.groupBoxRegistrarPRO.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostarEliminar)).EndInit();
+            this.groupBoxRegistrarPRO.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

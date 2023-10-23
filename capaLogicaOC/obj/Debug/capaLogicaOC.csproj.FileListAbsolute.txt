@@ -1,0 +1,11 @@
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\bin\Debug\capaLogicaOC.dll
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\bin\Debug\capaLogicaOC.pdb
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\bin\Debug\capaDatosOC.dll
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\bin\Debug\capaEntidadOC.dll
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\bin\Debug\capaDatosOC.pdb
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\bin\Debug\capaEntidadOC.pdb
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\obj\Debug\capaLogicaOC.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\obj\Debug\capaLogicaOC.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\obj\Debug\capaLogicaOC.csproj.CopyComplete
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\obj\Debug\capaLogicaOC.dll
+C:\Users\Sebastian\Source\Repos\SheylaAguirre\PROYECTO-Tienda-MASS\capaLogicaOC\obj\Debug\capaLogicaOC.pdb

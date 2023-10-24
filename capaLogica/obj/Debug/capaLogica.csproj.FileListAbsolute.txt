@@ -9,3 +9,14 @@ C:\Users\Sebastian\source\repos\TiendaMass\capaLogica\obj\Debug\capaLogica.cspro
 C:\Users\Sebastian\source\repos\TiendaMass\capaLogica\obj\Debug\capaLogica.csproj.CopyComplete
 C:\Users\Sebastian\source\repos\TiendaMass\capaLogica\obj\Debug\capaLogica.dll
 C:\Users\Sebastian\source\repos\TiendaMass\capaLogica\obj\Debug\capaLogica.pdb
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\bin\Debug\capaLogica.dll
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\bin\Debug\capaLogica.pdb
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\bin\Debug\capaDatos.dll
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\bin\Debug\capaEntidad.dll
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\bin\Debug\capaDatos.pdb
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\bin\Debug\capaEntidad.pdb
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\obj\Debug\capaLogica.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\obj\Debug\capaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\obj\Debug\capaLogica.csproj.CopyComplete
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\obj\Debug\capaLogica.dll
+C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaLogica\obj\Debug\capaLogica.pdb

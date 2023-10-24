@@ -22,5 +22,11 @@ namespace capaPresentacion
             formMantenedorProveedor formProveedor = new formMantenedorProveedor();
             formProveedor.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            formMantenedorCotizacion formCotizacion = new formMantenedorCotizacion();
+            formCotizacion.Show();
+        }
     }
 }

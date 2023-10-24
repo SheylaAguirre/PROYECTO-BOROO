@@ -35,16 +35,13 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.txtIdMostrar = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnMostra = new System.Windows.Forms.Button();
             this.dgvMostrar = new System.Windows.Forms.DataGridView();
             this.groupBoxRegistrar = new System.Windows.Forms.GroupBox();
-            this.dateTimePickerFecha = new System.Windows.Forms.DateTimePicker();
+            this.dateTPFechaCotizacion = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboxTipoPago = new System.Windows.Forms.ComboBox();
-            this.txtMonto = new System.Windows.Forms.TextBox();
-            this.txtFactura = new System.Windows.Forms.TextBox();
-            this.txtIDCotrizacion = new System.Windows.Forms.TextBox();
-            this.btnCancelar = new System.Windows.Forms.Button();
+            this.txtBoxDescripcionCotizacion = new System.Windows.Forms.TextBox();
+            this.txtOrdenDeCompraC = new System.Windows.Forms.TextBox();
+            this.txtNombreCotizacion = new System.Windows.Forms.TextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -53,6 +50,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.txtBoxTotalCotizacion = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -96,7 +94,6 @@
             this.groupBoxMostrar.Controls.Add(this.btnEliminar);
             this.groupBoxMostrar.Controls.Add(this.txtIdMostrar);
             this.groupBoxMostrar.Controls.Add(this.label1);
-            this.groupBoxMostrar.Controls.Add(this.btnMostra);
             this.groupBoxMostrar.Controls.Add(this.dgvMostrar);
             this.groupBoxMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxMostrar.Location = new System.Drawing.Point(12, 320);
@@ -108,12 +105,13 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(481, 214);
+            this.btnEliminar.Location = new System.Drawing.Point(358, 211);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(123, 32);
+            this.btnEliminar.Size = new System.Drawing.Size(210, 45);
             this.btnEliminar.TabIndex = 4;
             this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // txtIdMostrar
             // 
@@ -132,15 +130,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "ID:";
             // 
-            // btnMostra
-            // 
-            this.btnMostra.Location = new System.Drawing.Point(366, 215);
-            this.btnMostra.Name = "btnMostra";
-            this.btnMostra.Size = new System.Drawing.Size(109, 32);
-            this.btnMostra.TabIndex = 1;
-            this.btnMostra.Text = "MOSTRAR";
-            this.btnMostra.UseVisualStyleBackColor = true;
-            // 
             // dgvMostrar
             // 
             this.dgvMostrar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -150,16 +139,16 @@
             this.dgvMostrar.RowTemplate.Height = 24;
             this.dgvMostrar.Size = new System.Drawing.Size(815, 176);
             this.dgvMostrar.TabIndex = 0;
+            this.dgvMostrar.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMostrar_CellDoubleClick);
             // 
             // groupBoxRegistrar
             // 
-            this.groupBoxRegistrar.Controls.Add(this.dateTimePickerFecha);
+            this.groupBoxRegistrar.Controls.Add(this.txtBoxTotalCotizacion);
+            this.groupBoxRegistrar.Controls.Add(this.dateTPFechaCotizacion);
             this.groupBoxRegistrar.Controls.Add(this.label2);
-            this.groupBoxRegistrar.Controls.Add(this.comboxTipoPago);
-            this.groupBoxRegistrar.Controls.Add(this.txtMonto);
-            this.groupBoxRegistrar.Controls.Add(this.txtFactura);
-            this.groupBoxRegistrar.Controls.Add(this.txtIDCotrizacion);
-            this.groupBoxRegistrar.Controls.Add(this.btnCancelar);
+            this.groupBoxRegistrar.Controls.Add(this.txtBoxDescripcionCotizacion);
+            this.groupBoxRegistrar.Controls.Add(this.txtOrdenDeCompraC);
+            this.groupBoxRegistrar.Controls.Add(this.txtNombreCotizacion);
             this.groupBoxRegistrar.Controls.Add(this.btnAgregar);
             this.groupBoxRegistrar.Controls.Add(this.label7);
             this.groupBoxRegistrar.Controls.Add(this.label6);
@@ -174,13 +163,13 @@
             this.groupBoxRegistrar.TabStop = false;
             this.groupBoxRegistrar.Text = "Registrar";
             // 
-            // dateTimePickerFecha
+            // dateTPFechaCotizacion
             // 
-            this.dateTimePickerFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerFecha.Location = new System.Drawing.Point(187, 102);
-            this.dateTimePickerFecha.Name = "dateTimePickerFecha";
-            this.dateTimePickerFecha.Size = new System.Drawing.Size(265, 27);
-            this.dateTimePickerFecha.TabIndex = 13;
+            this.dateTPFechaCotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTPFechaCotizacion.Location = new System.Drawing.Point(187, 102);
+            this.dateTPFechaCotizacion.Name = "dateTPFechaCotizacion";
+            this.dateTPFechaCotizacion.Size = new System.Drawing.Size(265, 27);
+            this.dateTPFechaCotizacion.TabIndex = 13;
             // 
             // label2
             // 
@@ -192,57 +181,39 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "Fecha:";
             // 
-            // comboxTipoPago
+            // txtBoxDescripcionCotizacion
             // 
-            this.comboxTipoPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboxTipoPago.FormattingEnabled = true;
-            this.comboxTipoPago.Location = new System.Drawing.Point(187, 137);
-            this.comboxTipoPago.Name = "comboxTipoPago";
-            this.comboxTipoPago.Size = new System.Drawing.Size(265, 28);
-            this.comboxTipoPago.TabIndex = 11;
-            this.comboxTipoPago.Text = "Seleccionar";
+            this.txtBoxDescripcionCotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxDescripcionCotizacion.Location = new System.Drawing.Point(187, 171);
+            this.txtBoxDescripcionCotizacion.Name = "txtBoxDescripcionCotizacion";
+            this.txtBoxDescripcionCotizacion.Size = new System.Drawing.Size(265, 27);
+            this.txtBoxDescripcionCotizacion.TabIndex = 9;
             // 
-            // txtMonto
+            // txtOrdenDeCompraC
             // 
-            this.txtMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMonto.Location = new System.Drawing.Point(187, 171);
-            this.txtMonto.Name = "txtMonto";
-            this.txtMonto.Size = new System.Drawing.Size(265, 27);
-            this.txtMonto.TabIndex = 9;
+            this.txtOrdenDeCompraC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOrdenDeCompraC.Location = new System.Drawing.Point(187, 65);
+            this.txtOrdenDeCompraC.Name = "txtOrdenDeCompraC";
+            this.txtOrdenDeCompraC.Size = new System.Drawing.Size(265, 27);
+            this.txtOrdenDeCompraC.TabIndex = 8;
             // 
-            // txtFactura
+            // txtNombreCotizacion
             // 
-            this.txtFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFactura.Location = new System.Drawing.Point(187, 65);
-            this.txtFactura.Name = "txtFactura";
-            this.txtFactura.Size = new System.Drawing.Size(265, 27);
-            this.txtFactura.TabIndex = 8;
-            // 
-            // txtIDCotrizacion
-            // 
-            this.txtIDCotrizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDCotrizacion.Location = new System.Drawing.Point(187, 27);
-            this.txtIDCotrizacion.Name = "txtIDCotrizacion";
-            this.txtIDCotrizacion.Size = new System.Drawing.Size(265, 27);
-            this.txtIDCotrizacion.TabIndex = 7;
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.Location = new System.Drawing.Point(500, 115);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(234, 76);
-            this.btnCancelar.TabIndex = 6;
-            this.btnCancelar.Text = "CANCELAR";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.txtNombreCotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreCotizacion.Location = new System.Drawing.Point(187, 27);
+            this.txtNombreCotizacion.Name = "txtNombreCotizacion";
+            this.txtNombreCotizacion.Size = new System.Drawing.Size(265, 27);
+            this.txtNombreCotizacion.TabIndex = 7;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(500, 27);
+            this.btnAgregar.Location = new System.Drawing.Point(500, 48);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(234, 76);
+            this.btnAgregar.Size = new System.Drawing.Size(280, 128);
             this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // label7
             // 
@@ -304,6 +275,14 @@
             this.label8.TabIndex = 18;
             this.label8.Text = "MANTENEDOR COTIZACION";
             // 
+            // txtBoxTotalCotizacion
+            // 
+            this.txtBoxTotalCotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxTotalCotizacion.Location = new System.Drawing.Point(187, 137);
+            this.txtBoxTotalCotizacion.Name = "txtBoxTotalCotizacion";
+            this.txtBoxTotalCotizacion.Size = new System.Drawing.Size(265, 27);
+            this.txtBoxTotalCotizacion.TabIndex = 14;
+            // 
             // formMantenedorCotizacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -339,16 +318,13 @@
         private System.Windows.Forms.GroupBox groupBoxMostrar;
         private System.Windows.Forms.TextBox txtIdMostrar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnMostra;
         private System.Windows.Forms.DataGridView dgvMostrar;
         private System.Windows.Forms.GroupBox groupBoxRegistrar;
-        private System.Windows.Forms.DateTimePicker dateTimePickerFecha;
+        private System.Windows.Forms.DateTimePicker dateTPFechaCotizacion;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboxTipoPago;
-        private System.Windows.Forms.TextBox txtMonto;
-        private System.Windows.Forms.TextBox txtFactura;
-        private System.Windows.Forms.TextBox txtIDCotrizacion;
-        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.TextBox txtBoxDescripcionCotizacion;
+        private System.Windows.Forms.TextBox txtOrdenDeCompraC;
+        private System.Windows.Forms.TextBox txtNombreCotizacion;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
@@ -358,5 +334,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.TextBox txtBoxTotalCotizacion;
     }
 }

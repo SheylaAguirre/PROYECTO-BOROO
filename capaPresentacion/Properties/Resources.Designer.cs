@@ -73,6 +73,16 @@ namespace capaPresentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logoooo {
+            get {
+                object obj = ResourceManager.GetObject("logoooo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mass_logo_con_fondo {
             get {
                 object obj = ResourceManager.GetObject("Mass_logo_con_fondo", resourceCulture);

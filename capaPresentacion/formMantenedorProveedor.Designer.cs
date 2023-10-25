@@ -71,7 +71,7 @@
             this.groupBoxMostrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBoxMostrar.Name = "groupBoxMostrar";
             this.groupBoxMostrar.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBoxMostrar.Size = new System.Drawing.Size(1059, 278);
+            this.groupBoxMostrar.Size = new System.Drawing.Size(1090, 278);
             this.groupBoxMostrar.TabIndex = 20;
             this.groupBoxMostrar.TabStop = false;
             this.groupBoxMostrar.Text = "Mostrar";
@@ -84,13 +84,13 @@
             this.dgvMostrarProveedores.Name = "dgvMostrarProveedores";
             this.dgvMostrarProveedores.RowHeadersWidth = 51;
             this.dgvMostrarProveedores.RowTemplate.Height = 24;
-            this.dgvMostrarProveedores.Size = new System.Drawing.Size(1037, 231);
+            this.dgvMostrarProveedores.Size = new System.Drawing.Size(1060, 231);
             this.dgvMostrarProveedores.TabIndex = 0;
             this.dgvMostrarProveedores.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMostrarProveedores_CellDoubleClick);
             // 
             // btnEliminarProveedor
             // 
-            this.btnEliminarProveedor.Location = new System.Drawing.Point(32, 135);
+            this.btnEliminarProveedor.Location = new System.Drawing.Point(50, 134);
             this.btnEliminarProveedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminarProveedor.Name = "btnEliminarProveedor";
             this.btnEliminarProveedor.Size = new System.Drawing.Size(143, 42);
@@ -181,7 +181,7 @@
             // 
             // btnActualizarProveedor
             // 
-            this.btnActualizarProveedor.Location = new System.Drawing.Point(24, 76);
+            this.btnActualizarProveedor.Location = new System.Drawing.Point(41, 76);
             this.btnActualizarProveedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnActualizarProveedor.Name = "btnActualizarProveedor";
             this.btnActualizarProveedor.Size = new System.Drawing.Size(161, 42);
@@ -295,7 +295,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(776, 0);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(306, 98);
+            this.pictureBox2.Size = new System.Drawing.Size(339, 98);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 23;
             this.pictureBox2.TabStop = false;
@@ -317,7 +317,7 @@
             this.pictureBox3.Location = new System.Drawing.Point(-1, 622);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1083, 48);
+            this.pictureBox3.Size = new System.Drawing.Size(1116, 48);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 21;
             this.pictureBox3.TabStop = false;
@@ -331,7 +331,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
             this.groupBox1.Location = new System.Drawing.Point(857, 105);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(213, 212);
+            this.groupBox1.Size = new System.Drawing.Size(244, 212);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Editar/Eliminar por ID";
@@ -341,7 +341,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(1082, 667);
+            this.ClientSize = new System.Drawing.Size(1113, 667);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox2);

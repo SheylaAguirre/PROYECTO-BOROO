@@ -22,3 +22,9 @@ C:\Users\Sebastian\Pictures\TiendasMass\Sistema prototipo\PROYECTO-Tienda-MASS-m
 C:\Users\Sebastian\Pictures\TiendasMass\Sistema prototipo\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\Sebastian\Pictures\TiendasMass\Sistema prototipo\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.dll
 C:\Users\Sebastian\Pictures\TiendasMass\Sistema prototipo\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.pdb
+C:\Users\Sebastian\Pictures\TiendasMass\PROYECTO-Tienda-MASS-main\capaEntidad\bin\Debug\capaEntidad.dll
+C:\Users\Sebastian\Pictures\TiendasMass\PROYECTO-Tienda-MASS-main\capaEntidad\bin\Debug\capaEntidad.pdb
+C:\Users\Sebastian\Pictures\TiendasMass\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Pictures\TiendasMass\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Pictures\TiendasMass\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.dll
+C:\Users\Sebastian\Pictures\TiendasMass\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.pdb

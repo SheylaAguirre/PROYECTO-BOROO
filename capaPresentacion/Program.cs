@@ -16,7 +16,7 @@ namespace capaPresentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formOrdenCompra());
+            Application.Run(new formMenu());
         }
     }
 }

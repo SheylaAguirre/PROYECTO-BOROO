@@ -26,33 +26,30 @@ VALUES
     ('1212121212', 'Electrónica', 'Proveedor I', 'Pago en efectivo', '121-212-1212', '2023-10-15 08:30:00'),
     ('3434343434', 'Muebles', 'Proveedor J', 'Pago con tarjeta', '343-434-3434', '2023-10-14 10:45:00');
 
-
-
-
-CREATE TABLE Cotizacion (
-	IDCotizacion iNT IDENTITY(1,1)NOT NULL,
+CREATE TABLE Producto (
+	IDProducto INT IDENTITY(1,1)NOT NULL,
 	Nombre VARCHAR(30)NULL,
-	OrdenDeCompra VARCHAR(7)NULL,
-	Fecha DATETIME NULL, 
-	Total MONEY NULL,
-	Descripcion VARCHAR(150) NULL
+	Costo MONEY NULL,
+	Descripcion VARCHAR(100) NULL,
+	FechaEmision DATETIME NULL,
+	FechaVencimiento DATETIME NULL
 );
 
 --SOLO SON EJEMPLOS Y DATOS DE RELLENO PARA DEMOSTRAR FUNCIONALIDAD
 --AUN FALTA IMPLEMENTACION
-INSERT INTO Cotizacion (Nombre, OrdenDeCompra, Fecha, Total, Descripcion)
-VALUES
-    ('Cliente 1', 'OC001', '2023-10-23 09:00:00', 100.50, 'Cotización 1'),
-    ('Cliente 2', 'OC002', '2023-10-24 10:15:00', 200.75, 'Cotización 2'),
-    ('Cliente 3', 'OC003', '2023-10-25 11:30:00', 150.25, 'Cotización 3'),
-    ('Cliente 4', 'OC004', '2023-10-26 12:45:00', 300.00, 'Cotización 4'),
-    ('Cliente 5', 'OC005', '2023-10-27 14:00:00', 75.20, 'Cotización 5'),
-    ('Cliente 6', 'OC006', '2023-10-28 15:15:00', 180.90, 'Cotización 6'),
-    ('Cliente 7', 'OC007', '2023-10-29 16:30:00', 250.60, 'Cotización 7'),
-    ('Cliente 8', 'OC008', '2023-10-30 17:45:00', 350.40, 'Cotización 8'),
-    ('Cliente 9', 'OC009', '2023-10-31 19:00:00', 90.75, 'Cotización 9'),
-    ('Cliente 10', 'OC010', '2023-11-01 20:15:00', 270.30, 'Cotización 10');
 
+INSERT INTO Producto (Nombre, Costo, Descripcion, FechaEmision, FechaVencimiento)
+VALUES
+    ('Producto 1', 19.99, 'Descripción del Producto 1', '2023-10-24 08:00:00', '2024-10-24 08:00:00'),
+    ('Producto 2', 29.99, 'Descripción del Producto 2', '2023-10-25 08:00:00', '2024-10-25 08:00:00'),
+    ('Producto 3', 39.99, 'Descripción del Producto 3', '2023-10-26 08:00:00', '2024-10-26 08:00:00'),
+    ('Producto 4', 49.99, 'Descripción del Producto 4', '2023-10-27 08:00:00', '2024-10-27 08:00:00'),
+    ('Producto 5', 59.99, 'Descripción del Producto 5', '2023-10-28 08:00:00', '2024-10-28 08:00:00'),
+    ('Producto 6', 69.99, 'Descripción del Producto 6', '2023-10-29 08:00:00', '2024-10-29 08:00:00'),
+    ('Producto 7', 79.99, 'Descripción del Producto 7', '2023-10-30 08:00:00', '2024-10-30 08:00:00'),
+    ('Producto 8', 89.99, 'Descripción del Producto 8', '2023-10-31 08:00:00', '2024-10-31 08:00:00'),
+    ('Producto 9', 99.99, 'Descripción del Producto 9', '2023-11-01 08:00:00', '2024-11-01 08:00:00'),
+    ('Producto 10', 109.99, 'Descripción del Producto 10', '2023-11-02 08:00:00', '2024-11-02 08:00:00');
 
 -- PROC. ALMACENADOS PROVEEDOR
 CREATE PROCEDURE CrearProveedor
@@ -104,31 +101,51 @@ BEGIN
     WHERE IDProveedor = @IDProveedor;
 END
 
--- PROC. ALMACENADOS PARA COTIZACIONES
+-- PROC. ALMACENADOS PARA PRODUCTOS
 
-CREATE PROCEDURE CrearCotizacion
+CREATE PROCEDURE InsertarProducto
     @Nombre VARCHAR(30),
-    @OrdenDeCompra VARCHAR(7),
-    @Fecha DATETIME,
-    @Total MONEY,
-    @Descripcion VARCHAR(150)
+    @Costo MONEY,
+    @Descripcion VARCHAR(100),
+    @FechaEmision DATETIME,
+    @FechaVencimiento DATETIME
 AS
 BEGIN
-    INSERT INTO Cotizacion (Nombre, OrdenDeCompra, Fecha, Total, Descripcion)
-    VALUES (@Nombre, @OrdenDeCompra, @Fecha, @Total, @Descripcion);
-END
+    INSERT INTO Producto (Nombre, Costo, Descripcion, FechaEmision, FechaVencimiento)
+    VALUES (@Nombre, @Costo, @Descripcion, @FechaEmision, @FechaVencimiento);
+END;
 
-CREATE PROCEDURE LeerCotizacion
+CREATE PROCEDURE ObtenerProductos
 AS
 BEGIN
-    SELECT * FROM Cotizacion
-END
+    SELECT * FROM Producto
+END;
 
-CREATE PROCEDURE BorrarCotizacion
-    @IDCotizacion INT
+CREATE PROCEDURE ActualizarProducto
+    @IDProducto INT,
+    @Nombre VARCHAR(30),
+    @Costo MONEY,
+    @Descripcion VARCHAR(100),
+    @FechaEmision DATETIME,
+    @FechaVencimiento DATETIME
 AS
 BEGIN
-    DELETE FROM Cotizacion
-    WHERE IDCotizacion = @IDCotizacion;
-END
+    UPDATE Producto
+    SET Nombre = @Nombre,
+        Costo = @Costo,
+        Descripcion = @Descripcion,
+        FechaEmision = @FechaEmision,
+        FechaVencimiento = @FechaVencimiento
+    WHERE IDProducto = @IDProducto;
+END;
 
+
+CREATE PROCEDURE BorrarProducto
+    @IDProducto INT
+AS
+BEGIN
+    DELETE FROM Producto
+    WHERE IDProducto = @IDProducto;
+END;
+
+SELECT * FROM Producto

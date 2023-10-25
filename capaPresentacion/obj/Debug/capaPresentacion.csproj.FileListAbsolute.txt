@@ -37,3 +37,23 @@ C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\
 C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.csproj.CopyComplete
 C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.exe
 C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.pdb
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\bin\Debug\capaPresentacion.exe
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\bin\Debug\capaPresentacion.pdb
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\bin\Debug\capaEntidad.dll
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\bin\Debug\capaLogica.dll
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\bin\Debug\capaDatos.dll
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\bin\Debug\capaEntidad.pdb
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\bin\Debug\capaLogica.pdb
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\bin\Debug\capaDatos.pdb
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.formMantenedorProveedor.resources
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.formOrdenCompra.resources
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.formPresupuesto.resources
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.Properties.Resources.resources
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.csproj.GenerateResource.cache
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.csproj.CopyComplete
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.exe
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.pdb
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaPresentacion\obj\Debug\capaPresentacion.formMantenedorProducto.resources

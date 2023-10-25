@@ -61,6 +61,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -87,10 +91,6 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBoxRegistrar.SuspendLayout();
@@ -119,7 +119,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(236, 46);
             this.button2.TabIndex = 1;
-            this.button2.Text = "COTIZACION";
+            this.button2.Text = "PRODUCTO";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -211,9 +211,9 @@
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Location = new System.Drawing.Point(16, 247);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(547, 106);
             this.groupBox2.TabIndex = 37;
             this.groupBox2.TabStop = false;
@@ -242,7 +242,7 @@
             // dateTimePicker3
             // 
             this.dateTimePicker3.Location = new System.Drawing.Point(975, 210);
-            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(265, 27);
             this.dateTimePicker3.TabIndex = 35;
@@ -260,7 +260,7 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.Location = new System.Drawing.Point(975, 174);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(265, 27);
             this.dateTimePicker2.TabIndex = 33;
@@ -268,7 +268,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(975, 138);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 27);
             this.dateTimePicker1.TabIndex = 32;
@@ -297,7 +297,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(504, 140);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(224, 24);
             this.checkBox1.TabIndex = 30;
@@ -327,7 +327,7 @@
             // 
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Location = new System.Drawing.Point(216, 175);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(545, 28);
             this.comboBox4.TabIndex = 27;
@@ -337,7 +337,7 @@
             // 
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(216, 213);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(160, 28);
             this.comboBox3.TabIndex = 29;
@@ -346,7 +346,7 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(216, 137);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(160, 28);
             this.comboBox2.TabIndex = 28;
@@ -355,7 +355,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(216, 63);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(545, 28);
             this.comboBox1.TabIndex = 27;
@@ -484,6 +484,40 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detalle de la Orden";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(321, 386);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(128, 35);
+            this.button4.TabIndex = 34;
+            this.button4.Text = "BUSCAR";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(107, 390);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(187, 27);
+            this.textBox13.TabIndex = 33;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(52, 393);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(28, 20);
+            this.label25.TabIndex = 32;
+            this.label25.Text = "ID";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(75, 359);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(89, 20);
+            this.label24.TabIndex = 31;
+            this.label24.Text = "Consulta:";
+            // 
             // textBox12
             // 
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -571,7 +605,7 @@
             this.Column5,
             this.Column6});
             this.dataGridView1.Location = new System.Drawing.Point(16, 114);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1225, 185);
@@ -722,40 +756,6 @@
             this.label19.Size = new System.Drawing.Size(166, 20);
             this.label19.TabIndex = 0;
             this.label19.Text = "Articulo / Servicio:";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(75, 359);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(89, 20);
-            this.label24.TabIndex = 31;
-            this.label24.Text = "Consulta:";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(52, 393);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(28, 20);
-            this.label25.TabIndex = 32;
-            this.label25.Text = "ID";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(107, 390);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(187, 27);
-            this.textBox13.TabIndex = 33;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(321, 386);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(128, 35);
-            this.button4.TabIndex = 34;
-            this.button4.Text = "BUSCAR";
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // formOrdenCompra
             // 

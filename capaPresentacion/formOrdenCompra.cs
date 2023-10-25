@@ -25,7 +25,7 @@ namespace capaPresentacion
 
         private void button2_Click(object sender, EventArgs e)
         {
-            formMantenedorCotizacion formCotizacion = new formMantenedorCotizacion();
+            formMantenedorProducto formCotizacion = new formMantenedorProducto();
             formCotizacion.Show();
         }
 

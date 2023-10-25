@@ -10,3 +10,9 @@ C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug
 C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.dll
 C:\Users\Sebastian\Documents\GIT\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.pdb
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaEntidad\bin\Debug\capaEntidad.dll
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaEntidad\bin\Debug\capaEntidad.pdb
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.dll
+C:\Users\Sebastian\Downloads\Nueva carpeta\PROYECTO-Tienda-MASS-main\capaEntidad\obj\Debug\capaEntidad.pdb

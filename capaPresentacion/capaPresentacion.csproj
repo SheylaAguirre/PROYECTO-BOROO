@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formMantenedorCotizacion.cs">
+    <Compile Include="formMantenedorProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formMantenedorCotizacion.Designer.cs">
-      <DependentUpon>formMantenedorCotizacion.cs</DependentUpon>
+    <Compile Include="formMantenedorProducto.Designer.cs">
+      <DependentUpon>formMantenedorProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="formMantenedorProveedor.cs">
       <SubType>Form</SubType>
@@ -72,8 +72,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="formMantenedorCotizacion.resx">
-      <DependentUpon>formMantenedorCotizacion.cs</DependentUpon>
+    <EmbeddedResource Include="formMantenedorProducto.resx">
+      <DependentUpon>formMantenedorProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formMantenedorProveedor.resx">
       <DependentUpon>formMantenedorProveedor.cs</DependentUpon>

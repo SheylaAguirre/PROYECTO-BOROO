@@ -35,9 +35,6 @@
             this.dgvMostrar = new System.Windows.Forms.DataGridView();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.groupBoxRegistrar = new System.Windows.Forms.GroupBox();
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.txtBoxIDeditar = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.dtpVencimiento = new System.Windows.Forms.DateTimePicker();
             this.txtDescripcionProducto = new System.Windows.Forms.TextBox();
             this.dtpEmision = new System.Windows.Forms.DateTimePicker();
@@ -50,6 +47,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.txtBoxIDeditar = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -154,34 +154,6 @@
             this.groupBoxRegistrar.TabIndex = 13;
             this.groupBoxRegistrar.TabStop = false;
             this.groupBoxRegistrar.Text = "Registrar";
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.Location = new System.Drawing.Point(93, 79);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(140, 51);
-            this.btnEditar.TabIndex = 17;
-            this.btnEditar.Text = "ACTUALIZAR";
-            this.btnEditar.UseVisualStyleBackColor = true;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
-            // 
-            // txtBoxIDeditar
-            // 
-            this.txtBoxIDeditar.Location = new System.Drawing.Point(102, 30);
-            this.txtBoxIDeditar.Name = "txtBoxIDeditar";
-            this.txtBoxIDeditar.Size = new System.Drawing.Size(164, 27);
-            this.txtBoxIDeditar.TabIndex = 19;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(62, 33);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(34, 20);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "ID:";
             // 
             // dtpVencimiento
             // 
@@ -298,6 +270,34 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Nombre:";
             // 
+            // btnEditar
+            // 
+            this.btnEditar.Location = new System.Drawing.Point(93, 79);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(140, 51);
+            this.btnEditar.TabIndex = 17;
+            this.btnEditar.Text = "ACTUALIZAR";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // txtBoxIDeditar
+            // 
+            this.txtBoxIDeditar.Location = new System.Drawing.Point(102, 30);
+            this.txtBoxIDeditar.Name = "txtBoxIDeditar";
+            this.txtBoxIDeditar.Size = new System.Drawing.Size(164, 27);
+            this.txtBoxIDeditar.TabIndex = 19;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(62, 33);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(34, 20);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "ID:";
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -338,7 +338,7 @@
             this.Controls.Add(this.groupBoxRegistrar);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "formMantenedorProducto";
-            this.Text = "COTIZACIONES";
+            this.Text = "MantenedorProducto";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

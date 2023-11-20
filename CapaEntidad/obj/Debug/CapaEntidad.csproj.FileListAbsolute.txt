@@ -1,0 +1,24 @@
+C:\Users\lucas\source\repos\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\lucas\source\repos\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\lucas\source\repos\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\lucas\source\repos\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\lucas\OneDrive\Escritorio\git\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Escritorio\git\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Escritorio\git\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\lucas\OneDrive\Escritorio\git\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaEntidad\obj\Debug\CapaEntidad.pdb

@@ -1,0 +1,36 @@
+C:\Users\lucas\source\repos\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\lucas\source\repos\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\lucas\source\repos\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\lucas\source\repos\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\lucas\source\repos\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\lucas\source\repos\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\lucas\source\repos\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\lucas\OneDrive\Escritorio\git\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\lucas\OneDrive\Escritorio\git\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Escritorio\git\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Escritorio\git\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Escritorio\git\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\lucas\OneDrive\Escritorio\git\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaDatos\obj\Debug\CapaDatos.pdb

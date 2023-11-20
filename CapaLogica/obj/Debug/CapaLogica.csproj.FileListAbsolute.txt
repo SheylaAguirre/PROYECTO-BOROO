@@ -1,0 +1,44 @@
+C:\Users\lucas\source\repos\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\lucas\source\repos\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\lucas\source\repos\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\lucas\source\repos\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\lucas\source\repos\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\lucas\source\repos\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\lucas\source\repos\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\lucas\source\repos\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\lucas\source\repos\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\lucas\OneDrive\Escritorio\git\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\CapaLogica\obj\Debug\CapaLogica.pdb

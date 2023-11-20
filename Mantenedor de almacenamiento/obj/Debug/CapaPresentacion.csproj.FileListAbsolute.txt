@@ -1,0 +1,133 @@
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe.config
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Properties.Resources.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.exe
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.dll
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\bin\Debug\CapaLogica.dll
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\bin\Debug\CapaDatos.dll
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.pdb
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\bin\Debug\CapaLogica.pdb
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\bin\Debug\CapaDatos.pdb
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormOrdenCompra.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormRequerimiento.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorProducto.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantendorProveedor.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Main.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormEntrada.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormPresupuesto.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormSalida.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorSucursal.resources
+C:\Users\lucas\source\repos\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Login.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe.config
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\bin\Debug\CapaDatos.dll
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.dll
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\bin\Debug\CapaLogica.dll
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\bin\Debug\CapaDatos.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\bin\Debug\CapaLogica.pdb
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormEntrada.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormPresupuesto.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormSalida.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Login.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Main.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantendorProveedor.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormOrdenCompra.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormRequerimiento.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorProducto.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorSucursal.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Properties.Resources.resources
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.exe
+C:\Users\lucas\OneDrive\Escritorio\git\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormEntrada.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormPresupuesto.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormSalida.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Login.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Main.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantendorProveedor.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormOrdenCompra.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormRequerimiento.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorProducto.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorSucursal.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Properties.Resources.resources
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.exe
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe.config
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\bin\Debug\CapaLogica.dll
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\bin\Debug\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\bin\Debug\CapaLogica.pdb
+C:\Users\USUARIO\OneDrive - Universidad Privada del Norte\Desktop\clon\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe.config
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaDatos.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaLogica.dll
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaDatos.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaLogica.pdb
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormEntrada.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormPresupuesto.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormSalida.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Login.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Main.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantendorProveedor.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormOrdenCompra.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormRequerimiento.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorProducto.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorSucursal.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Properties.Resources.resources
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.exe
+C:\Users\Sebastian\Downloads\MOANSO PRACTICA\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormEntrada.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormPresupuesto.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormSalida.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Login.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Main.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantendorProveedor.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormOrdenCompra.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.FormRequerimiento.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorProducto.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.MantenedorSucursal.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.exe
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe.config
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.exe
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\Mantenedor de almacenamiento.pdb
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaDatos.dll
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.dll
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaLogica.dll
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaDatos.pdb
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaEntidad.pdb
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\bin\Debug\CapaLogica.pdb
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\Mantenedor_de_almacenamiento.Properties.Resources.resources
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\ProyectoMoanso\SupermercadoLosGigantes-master\Mantenedor de almacenamiento\obj\Debug\CapaPresentacion.csproj.CopyComplete

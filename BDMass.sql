@@ -1,10 +1,7 @@
 CREATE DATABASE Supermercado
 USE [Supermercado]
 GO
-/****** Object:  User [user_HESC]    Script Date: 21/11/2023 01:10:01 ******/
-CREATE USER [user_HESC] FOR LOGIN [user_HESC] WITH DEFAULT_SCHEMA=[dbo]
-GO
-/****** Object:  Table [dbo].[Entrada]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  Table [dbo].[Entrada]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -23,7 +20,7 @@ CREATE TABLE [dbo].[Entrada](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[OrdenCompra]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  Table [dbo].[OrdenCompra]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -40,7 +37,7 @@ CREATE TABLE [dbo].[OrdenCompra](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[PRESUPUESTO]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  Table [dbo].[PRESUPUESTO]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -59,7 +56,7 @@ CREATE TABLE [dbo].[PRESUPUESTO](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Producto]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  Table [dbo].[Producto]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -80,7 +77,7 @@ CREATE TABLE [dbo].[Producto](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Proveedor]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  Table [dbo].[Proveedor]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -102,7 +99,7 @@ CREATE TABLE [dbo].[Proveedor](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Requerimiento]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  Table [dbo].[Requerimiento]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -118,7 +115,7 @@ CREATE TABLE [dbo].[Requerimiento](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Salida]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  Table [dbo].[Salida]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -136,7 +133,7 @@ CREATE TABLE [dbo].[Salida](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Sucursal]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  Table [dbo].[Sucursal]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -385,7 +382,7 @@ GO
 ALTER TABLE [dbo].[Salida]  WITH CHECK ADD FOREIGN KEY([idSucursal])
 REFERENCES [dbo].[Sucursal] ([idSucursal])
 GO
-/****** Object:  StoredProcedure [dbo].[InsertarSalida]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[InsertarSalida]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -404,7 +401,7 @@ BEGIN
     VALUES (@idProducto, @Cantidad, @idSucursal,@DocSalida, @FecSalida)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[ListarSalida]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[ListarSalida]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -417,7 +414,7 @@ BEGIN
 	
 END
 GO
-/****** Object:  StoredProcedure [dbo].[spBuscarNroReq]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spBuscarNroReq]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -440,7 +437,7 @@ as
 	where nroReq = @prmintnroReq
 	END
 GO
-/****** Object:  StoredProcedure [dbo].[spDeshabilitarOrden]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spDeshabilitarOrden]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -453,7 +450,7 @@ BEGIN
     WHERE nroOrden  = @nroOrden;
 END;
 GO
-/****** Object:  StoredProcedure [dbo].[spDeshabilitarProducto]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spDeshabilitarProducto]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -468,7 +465,7 @@ estProducto = 0
 where idProducto = @idProducto
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spDeshabilitarProveedor]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spDeshabilitarProveedor]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -483,7 +480,7 @@ EstadoProveedor = 0
 where IDProveedor = @IDProveedor
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spDeshabilitarRequerimiento]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spDeshabilitarRequerimiento]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -497,7 +494,7 @@ BEGIN
     WHERE nroReq  = @nroReq ;
 END;
 GO
-/****** Object:  StoredProcedure [dbo].[spDeshabilitarSucursal]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spDeshabilitarSucursal]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -512,7 +509,7 @@ estSucursal = 0
 where idSucursal = @idSucursal
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spDeshabiltarEntradas]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spDeshabiltarEntradas]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -525,7 +522,7 @@ BEGIN
     WHERE IDEntrada = @IDEntrada;
 END;
 GO
-/****** Object:  StoredProcedure [dbo].[spEditarProducto]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spEditarProducto]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -554,7 +551,7 @@ begin
     where idProducto = @idProducto
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spEditarProveedor]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spEditarProveedor]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -585,7 +582,7 @@ begin
     where IDProveedor = @IDProveedor
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spEditarSucursal]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spEditarSucursal]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -612,7 +609,7 @@ begin
     where idSucursal = @idSucursal
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spEliminarPresupuesto]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spEliminarPresupuesto]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -625,7 +622,7 @@ BEGIN
     WHERE IdPresupuesto = @IdPresupuesto;
 END;
 GO
-/****** Object:  StoredProcedure [dbo].[spEliminarSalida]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spEliminarSalida]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -638,7 +635,7 @@ BEGIN
     WHERE IdSalida = @IdSalida;
 END;
 GO
-/****** Object:  StoredProcedure [dbo].[spInsertaEntradas]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spInsertaEntradas]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -658,7 +655,7 @@ begin
     (@idProducto,@Cant_entradas, @NroDocCal,@idSucursal,@IDProveedor,@fecRegProduct)
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spInsertarOrden]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spInsertarOrden]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -681,7 +678,7 @@ as
 	@nroReq
 	)end
 GO
-/****** Object:  StoredProcedure [dbo].[spInsertarPresupuesto]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spInsertarPresupuesto]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -699,7 +696,7 @@ BEGIN
     VALUES (@Factura, @IDProveedor, @Monto, @MetodoDePago, @Saldo, @dtp_fecha);
 END;
 GO
-/****** Object:  StoredProcedure [dbo].[spInsertarProducto]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spInsertarProducto]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -734,7 +731,7 @@ begin
     @estProducto)
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spInsertarProveedor]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spInsertarProveedor]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -775,7 +772,7 @@ begin
     )
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spInsertarRequerimiento]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spInsertarRequerimiento]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -796,7 +793,7 @@ begin
 	 )
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spInsertarSucursal]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spInsertarSucursal]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -827,7 +824,7 @@ begin
         @estSucursal)
 end
 GO
-/****** Object:  StoredProcedure [dbo].[spListaEntradas]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spListaEntradas]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -837,7 +834,7 @@ AS
     SELECT IDEntrada, idProducto, Cant_entradas, NroDocCal, idSucursal, IDProveedor,fecRegProduct
     from Entrada
 GO
-/****** Object:  StoredProcedure [dbo].[spListaPresupuesto]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spListaPresupuesto]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -849,7 +846,7 @@ BEGIN
     FROM PRESUPUESTO;
 END;
 GO
-/****** Object:  StoredProcedure [dbo].[spListarOrden]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spListarOrden]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -864,7 +861,7 @@ as
 		nroReq
 	From OrdenCompra
 GO
-/****** Object:  StoredProcedure [dbo].[spListarProducto]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spListarProducto]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -885,7 +882,7 @@ as
     FROM Producto
     Where estProducto = '1'
 GO
-/****** Object:  StoredProcedure [dbo].[spListarProveedor]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spListarProveedor]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -906,7 +903,7 @@ as
     FROM Proveedor
     Where EstadoProveedor = '1'
 GO
-/****** Object:  StoredProcedure [dbo].[spListarRequerimiento]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spListarRequerimiento]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -921,7 +918,7 @@ as
 		fecReq
 	from Requerimiento
 GO
-/****** Object:  StoredProcedure [dbo].[spListarSucursal]    Script Date: 21/11/2023 01:10:01 ******/
+/****** Object:  StoredProcedure [dbo].[spListarSucursal]    Script Date: 21/11/2023 01:29:19 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -939,3 +936,4 @@ as
     FROM Sucursal
     Where estSucursal = '1'
 GO
+

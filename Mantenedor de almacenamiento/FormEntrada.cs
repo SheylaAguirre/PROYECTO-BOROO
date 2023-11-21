@@ -123,7 +123,7 @@ namespace Mantenedor_de_almacenamiento
             {
                 EntEntrada r = new EntEntrada();
                 r.IDEntrada = int.Parse(txtIDEntrada.Text.Trim());
-                LogEntrada.Instancia.DeshabiltarEntrada(r);
+                LogEntrada.Instancia.DeshabilitarEntrada(r);
 
             }
             catch (Exception ex)

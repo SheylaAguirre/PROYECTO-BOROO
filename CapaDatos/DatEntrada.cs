@@ -99,7 +99,7 @@ namespace CapaDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spDeshabilitarEntradas", cn);
+                cmd = new SqlCommand("spDeshabiltarEntradas", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@IDEntrada", Cli.IDEntrada);
                 cn.Open();
